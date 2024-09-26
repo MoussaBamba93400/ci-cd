@@ -3,6 +3,7 @@ import unittest
 from inc_dec import increment, decrement
 
 class TestIncDec(unittest.TestCase):
+    print("running test")
     def test_increment(self):
         self.assertEqual(increment(3), 4)
         self.assertEqual(increment(0), 1)
